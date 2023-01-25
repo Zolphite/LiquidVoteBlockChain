@@ -2,5 +2,23 @@
   "dependencies": {
     "crypto-js": "^4.1.1",
     "elliptic": "^6.5.4"
-  }
+  },
+  "name": "voteblockchain",
+  "version": "1.0.0",
+  "description": "Vote Ledger for Liquid Democracy app",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zolphite/LiquidVoteBlockChain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zolphite/LiquidVoteBlockChain/issues"
+  },
+  "homepage": "https://github.com/Zolphite/LiquidVoteBlockChain#readme"
 }
