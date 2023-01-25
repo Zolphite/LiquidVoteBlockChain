@@ -1,3 +1,4 @@
+'use strict';
 const SHA256 = require('crypto-js/sha256')
 const fs = require('fs')
 const EC = require('elliptic').ec;
@@ -185,4 +186,5 @@ class Blockchain{
 }
 
 module.exports.Blockchain = Blockchain;
+module.exports.Block = Block;
 module.exports.Transaction = Transaction
